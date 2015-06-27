@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../../fonts/icomoon.eot?-ynq6gc");
+  src: url("../../fonts/icomoon.eot?#iefix-ynq6gc") format("embedded-opentype"), url("../../fonts/icomoon.woff?-ynq6gc") format("woff"), url("../../fonts/icomoon.ttf?-ynq6gc") format("truetype"), url("../../fonts/icomoon.svg?-ynq6gc#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-smile:before {
+  content: "\e9e1";
+}
+
+.icon-smile2:before {
+  content: "\e9e2";
+}
+
+.icon-sad:before {
+  content: "\e9e5";
+}
+
+.icon-sad2:before {
+  content: "\e9e6";
+}
+
+html,
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../../img/background.jpg);
+  height: 100%;
+}
+
+.master {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+.topo {
+  border-top: solid 5px #fbdb00;
+  width: 100%;
+  background: #fbfbfb;
+  box-shadow: 0 2px 1px #dedede;
+}
+
+.logo {
+  display: block;
+  width: 175px;
+  margin: 4px auto 0 auto;
+}
+
+.centralizado {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 55px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+i {
+  display: block;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.feedback {
+  width: 300px;
+  margin: 15px auto 0 auto;
+}
+
+.botao {
+  cursor: pointer;
+  width: 148px;
+  height: 120px;
+  text-align: center;
+  display: inline-table;
+}
+
+.postIt {
+  margin: .5% 0 0 .3%;
+  padding: .5%;
+  width: 18.45%;
+  height: 85px;
+  border-radius: 5px;
+  display: inline-table;
+  text-align: center;
+  background-color: #fff;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+}
+
+button {
+  width: auto;
+  padding: 15px 10px;
+  background: #fbdb00;
+  border: none;
+  margin: 15px auto 0 auto;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+span {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.bom {
+  background-color: rgba(69, 191, 85, 0.5);
+}
+
+.podeMelhorar {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+.rodape {
+  margin-top: -60px;
+  padding: 20px 5%;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  box-shadow: 0 -2px 1px #dedede;
+  background: #fbfbfb;
+}

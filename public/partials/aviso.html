@@ -1,0 +1,7 @@
+<p ng-show="mensagem.texto">
+    {{mensagem.texto}}
+</p>
+<form ng-submit="salvar()">
+    <textarea ng-model="aviso.conteudo" minlength="1" maxlength="120" placeholder="Aviso" required></textarea>
+    <button type="submit">Salvar</button>
+</form>

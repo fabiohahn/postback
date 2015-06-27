@@ -1,0 +1,9 @@
+<p ng-show="mensagem.texto">
+    {{mensagem.texto}}
+</p>
+<form ng-submit="salvar()">
+	<input type="radio" ng-model="feedback.tipo" value="positivo">Positivo
+	<input type="radio" ng-model="feedback.tipo" value="negativo">Negativo
+    <textarea ng-model="feedback.conteudo" minlength="1" maxlength="120" placeholder="Feedback" required></textarea>
+    <button type="submit">Salvar</button>
+</form>

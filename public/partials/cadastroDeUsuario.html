@@ -1,0 +1,8 @@
+{{mensagem.texto}}
+<h1>Cadastrar usuário</h1>
+<form ng-submit="cadastrar()">
+	<input ng-model="usuario.nome" type="text" placeholder="Nome" id="nome" required />
+	<input ng-model="usuario.email" type="email" placeholder="E-mail" id="email" required />
+	<input ng-model="usuario.senha" type="password" placeholder="Senha" id="senha" required />
+	<input type="submit" value="Cadastrar-se" />
+</form>

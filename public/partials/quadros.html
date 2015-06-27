@@ -1,0 +1,9 @@
+<ul>
+	<li ng-repeat="quadro in quadros">
+		<h1>{{quadro.titulo}}</h1>
+		<p>{{quadro.descricao}}</p>
+		<a ng-href="#/quadros/{{quadro._id}}">ver quadro</a>
+		<a ng-href="#/feedback/{{quadro._id}}">enviar feedback</a>
+		<a ng-href="#/aviso/{{quadro._id}}">enviar aviso</a>
+	</li>
+</ul>

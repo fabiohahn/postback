@@ -1,0 +1,32 @@
+<!doctype html>
+<html ng-app="postback">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="stylesheet/css/style.css" />
+  <link rel="shortcut icon" id="favicon" href="img/favicon.ico">
+  <title>Postback</title>
+</head>
+<body>
+  <div class="master">
+    <div class="topo">
+        <div class="centralizado">
+            <img src="img/logo-postback.jpg" class="logo" alt="PostBack">
+        </div>
+    </div>
+    <div class="conteudo" ng-view></div>
+  </div>
+  <script src="vendor/angular/angular.js"></script>
+  <script src="vendor/angular-route/angular-route.js"></script>
+  <script src="vendor/angular-resource/angular-resource.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/services/SocketService.js"></script>
+  <script src="js/controllers/HomeController.js"></script>
+  <script src="js/controllers/QuadrosController.js"></script>
+  <script src="js/controllers/QuadroController.js"></script>
+  <script src="js/controllers/FeedbackController.js"></script>
+  <script src="js/controllers/AvisoController.js"></script>
+  <script src="js/controllers/UsuarioController.js"></script>
+</body>
+</html>
