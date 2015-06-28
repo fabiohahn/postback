@@ -1,5 +1,5 @@
 module.exports = (app) ->
-	Quadro = require '../models/Quadro'
+	Quadro = require '../models/quadro'
 
 	QuadroController = 
 		listarTodos: (req, res) ->

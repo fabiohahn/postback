@@ -1,5 +1,5 @@
 module.exports = (app) ->
-	Feedback = require '../models/Feedback'
+	Feedback = require '../models/feedback'
 
 	FeedbackController = 
 		salvar: (req, res) ->

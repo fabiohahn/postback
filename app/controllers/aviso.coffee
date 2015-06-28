@@ -1,5 +1,5 @@
 module.exports = (app) ->
-	Aviso = require '../models/Aviso'
+	Aviso = require '../models/aviso'
 
 	AvisoController = 
 		salvar: (req, res) ->
